@@ -6,3 +6,6 @@
 ## 動作環境
 - Windows10
 - Unity version: 2020.3.11f1
+- uLipsync version: 1.01
+- Burst version: 1.4.8
+- Mathematics version: 1.2.1
