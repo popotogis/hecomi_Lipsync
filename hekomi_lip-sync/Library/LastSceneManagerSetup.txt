@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/New Scene.unity
+- path: Assets/import_VRM.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

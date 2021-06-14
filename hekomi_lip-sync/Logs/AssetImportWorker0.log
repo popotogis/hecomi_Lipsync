@@ -1,0 +1,265 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1052; Version 2009; 64bit' Language: 'ja' Physical Memory: 16310 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/ドキュメント/Unity/hekomi_lip-sync/hekomi_lip-sync
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56804
+Successfully changed project path to: D:/ドキュメント/Unity/hekomi_lip-sync/hekomi_lip-sync
+D:/ドキュメント/Unity/hekomi_lip-sync/hekomi_lip-sync
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 38.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/ドキュメント/Unity/hekomi_lip-sync/hekomi_lip-sync/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   27.21.14.6089
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001837 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 35.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.957 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002625 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 44.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.465 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.9 MB.
+System memory in use after: 103.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2568.
+Total: 2.246300 ms (FindLiveObjects: 0.184600 ms CreateObjectMapping: 0.048500 ms MarkObjects: 1.939100 ms  DeleteObjects: 0.073000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Sendagaya_Shino.prefab
+  artifactKey: Guid(03b922c2ba1dfd44db7c14bdc19c09ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.prefab using Guid(03b922c2ba1dfd44db7c14bdc19c09ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a18f7b64af84d4fbc4ded4f51d1aea') in 1.279540 seconds
+  Import took 1.284120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.364134 seconds.
+  path: Assets/Sendagaya_Shino.Textures/Thumbnail.png
+  artifactKey: Guid(e44f6048bff80bf448f469e025770ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.Textures/Thumbnail.png using Guid(e44f6048bff80bf448f469e025770ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d0a1ae5e6c3fc10d3793bccd49921c') in 0.043895 seconds
+  Import took 0.047467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.908475 seconds.
+  path: Assets/New Scene.unity
+  artifactKey: Guid(65824794e582eb54dadcf58432d73554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Scene.unity using Guid(65824794e582eb54dadcf58432d73554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f7b84493c226e801c9abebe4ba00a4') in 0.002366 seconds
+  Import took 0.005749 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002440 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.862 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.0 MB.
+System memory in use after: 119.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2581.
+Total: 1.970200 ms (FindLiveObjects: 0.197400 ms CreateObjectMapping: 0.048000 ms MarkObjects: 1.672400 ms  DeleteObjects: 0.051500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.585177 seconds.
+  path: Assets/Unity_chan.unity
+  artifactKey: Guid(65824794e582eb54dadcf58432d73554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_chan.unity using Guid(65824794e582eb54dadcf58432d73554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df46e3fdc74fa540098ea29d163f5eca') in 0.010021 seconds
+  Import took 0.013233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000758 seconds.
+  path: Assets/Unity_chan.unity
+  artifactKey: Guid(65824794e582eb54dadcf58432d73554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_chan.unity using Guid(65824794e582eb54dadcf58432d73554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df46e3fdc74fa540098ea29d163f5eca') in 0.001945 seconds
+  Import took 0.005229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.467652 seconds.
+  path: Assets/VRM.unity
+  artifactKey: Guid(70370b5472bc5364ba0dc1d9c499429c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRM.unity using Guid(70370b5472bc5364ba0dc1d9c499429c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63cb2dedc5c6d0d24884c3b4236f7e96') in 0.002861 seconds
+  Import took 0.007269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 117.220645 seconds.
+  path: Assets/UniGLTF/Tests/UniGLTF/4x4_gray_import_as_linear.png
+  artifactKey: Guid(fc1ba24d4a4141d4d9e9ae0a0d3ecd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/Tests/UniGLTF/4x4_gray_import_as_linear.png using Guid(fc1ba24d4a4141d4d9e9ae0a0d3ecd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12657f0e54d56fea4adeb625179b1cf3') in 0.029050 seconds
+  Import took 0.033064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/VRMShaders/GLTF/IO/Tests/4x4_non_readable.png
+  artifactKey: Guid(82e462ede66d6d0488b5be50747cbad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMShaders/GLTF/IO/Tests/4x4_non_readable.png using Guid(82e462ede66d6d0488b5be50747cbad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd773f46dc7434df4023335f628b312c8') in 0.004933 seconds
+  Import took 0.007395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/UniGLTF/Tests/UniGLTF/4x4_gray_import_as_normal_map.png
+  artifactKey: Guid(b5d17df8d14f2324692a7c69f24cf658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/Tests/UniGLTF/4x4_gray_import_as_normal_map.png using Guid(b5d17df8d14f2324692a7c69f24cf658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7670842a1f7977be761e677b8ec050f0') in 0.012306 seconds
+  Import took 0.015545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/UniGLTF/Tests/UniGLTF/4x4_gray_import_as_linear.png
+  artifactKey: Guid(fc1ba24d4a4141d4d9e9ae0a0d3ecd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/Tests/UniGLTF/4x4_gray_import_as_linear.png using Guid(fc1ba24d4a4141d4d9e9ae0a0d3ecd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12657f0e54d56fea4adeb625179b1cf3') in 0.006829 seconds
+  Import took 0.010261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/UniGLTF/Tests/UniGLTF/4x4_gray_import_as_normal_map.png
+  artifactKey: Guid(b5d17df8d14f2324692a7c69f24cf658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/Tests/UniGLTF/4x4_gray_import_as_normal_map.png using Guid(b5d17df8d14f2324692a7c69f24cf658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7670842a1f7977be761e677b8ec050f0') in 0.004545 seconds
+  Import took 0.007674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/VRMShaders/GLTF/IO/Tests/4x4_non_readable_compressed.DDS
+  artifactKey: Guid(e1e26504b87027940bfbd21ea1327ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMShaders/GLTF/IO/Tests/4x4_non_readable_compressed.DDS using Guid(e1e26504b87027940bfbd21ea1327ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8b8daf2331464ea9a45d2b0a4d50a2') in 0.009261 seconds
+  Import took 0.012409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/UniGLTF/Tests/UniGLTF/4x4_gray_import_as_srgb.png
+  artifactKey: Guid(0f7acf68f1798ae48a5505519abac457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/Tests/UniGLTF/4x4_gray_import_as_srgb.png using Guid(0f7acf68f1798ae48a5505519abac457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ca9dc0ad8dcbcdf3bb60938169410e') in 0.004207 seconds
+  Import took 0.007567 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002649 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.884 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.1 MB.
+System memory in use after: 119.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2587.
+Total: 1.987200 ms (FindLiveObjects: 0.200000 ms CreateObjectMapping: 0.046200 ms MarkObjects: 1.689800 ms  DeleteObjects: 0.050300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 156.816874 seconds.
+  path: Assets/VRM.unity
+  artifactKey: Guid(70370b5472bc5364ba0dc1d9c499429c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRM.unity using Guid(70370b5472bc5364ba0dc1d9c499429c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98caf693557fb99fd2f14ca3d2dc07ae') in 0.009986 seconds
+  Import took 0.013252 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002501 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.878 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.1 MB.
+System memory in use after: 119.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2590.
+Total: 2.537700 ms (FindLiveObjects: 0.223600 ms CreateObjectMapping: 0.068800 ms MarkObjects: 2.183500 ms  DeleteObjects: 0.060600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.094223 seconds.
+  path: Assets/Unity_chan_Lipsync.unity
+  artifactKey: Guid(65824794e582eb54dadcf58432d73554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_chan_Lipsync.unity using Guid(65824794e582eb54dadcf58432d73554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e873bb4b6b0e7da2386960c55fcd53c') in 0.012985 seconds
+  Import took 0.016293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.741066 seconds.
+  path: Assets/VRM.unity
+  artifactKey: Guid(70370b5472bc5364ba0dc1d9c499429c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRM.unity using Guid(70370b5472bc5364ba0dc1d9c499429c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02ca3052e96607c236da96e6731c9cc') in 0.001961 seconds
+  Import took 0.005085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.711584 seconds.
+  path: Assets/import_VRM.unity
+  artifactKey: Guid(70370b5472bc5364ba0dc1d9c499429c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/import_VRM.unity using Guid(70370b5472bc5364ba0dc1d9c499429c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8857c28b7b43bb2fc9c90bc0cafc6f6') in 0.002328 seconds
+  Import took 0.005373 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
