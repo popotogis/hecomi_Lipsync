@@ -12,12 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37562b39ff933b245ac2f35d87edbcd6, type: 3}
   m_Name: BlendShape.A
   m_EditorClassIdentifier: 
-  m_prefab: {fileID: 0}
-  BlendShapeName: A
-  Preset: 2
+  m_prefab: {fileID: 3588695179803404075, guid: 03b922c2ba1dfd44db7c14bdc19c09ad, type: 3}
+  BlendShapeName: Smile
+  Preset: 0
   Values:
   - RelativePath: Face
-    Index: 37
+    Index: 17
     Weight: 100
+  - RelativePath: Face
+    Index: 30
+    Weight: 41.3
+  - RelativePath: Face
+    Index: 37
+    Weight: 35.5
   MaterialValues: []
-  IsBinary: 0
+  IsBinary: 1
