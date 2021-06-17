@@ -1,0 +1,627 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1052; Version 2009; 64bit' Language: 'ja' Physical Memory: 16310 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/ドキュメント/Unity/hekomi_lip-sync/hekomi_lip-sync
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55862
+Successfully changed project path to: D:/ドキュメント/Unity/hekomi_lip-sync/hekomi_lip-sync
+D:/ドキュメント/Unity/hekomi_lip-sync/hekomi_lip-sync
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 37.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/ドキュメント/Unity/hekomi_lip-sync/hekomi_lip-sync/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   27.21.14.6089
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001910 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 35.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.926 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002642 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 37.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.482 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.1 MB.
+System memory in use after: 104.2 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2568.
+Total: 2.080500 ms (FindLiveObjects: 0.223900 ms CreateObjectMapping: 0.053900 ms MarkObjects: 1.727500 ms  DeleteObjects: 0.074300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/VRMShaders
+  artifactKey: Guid(503ae90aee4d0224db69e4e74762223b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMShaders using Guid(503ae90aee4d0224db69e4e74762223b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4f9a87acf3c5d38b7c2e878b1b85bd') in 0.004546 seconds
+  Import took 0.007210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.830177 seconds.
+  path: Assets/VRM
+  artifactKey: Guid(8047ecfc909c7f044bad5c7d10844e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRM using Guid(8047ecfc909c7f044bad5c7d10844e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6333c1cf37355424e3cd9c0f8bf548') in 0.002242 seconds
+  Import took 0.005477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.168529 seconds.
+  path: Assets/VRM/Documentation
+  artifactKey: Guid(c83fb6d0b872bc3418ff7c31b8599ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRM/Documentation using Guid(c83fb6d0b872bc3418ff7c31b8599ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64af1643fd11efe51f7acdb562e63cf') in 0.148755 seconds
+  Import took 0.152644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.719438 seconds.
+  path: Assets/VRM/Documentation/VRM.md
+  artifactKey: Guid(3ddddaadf9bca764a92432d4e1216dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRM/Documentation/VRM.md using Guid(3ddddaadf9bca764a92432d4e1216dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1060ed69a6a21e8c81012be3d81d212b') in 0.137503 seconds
+  Import took 0.159261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 548.566892 seconds.
+  path: Assets/Sendagaya_Shino.BlendShapes/BlendShape.A.asset
+  artifactKey: Guid(ab1fbe69020d100409560bf6883cd323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.BlendShapes/BlendShape.A.asset using Guid(ab1fbe69020d100409560bf6883cd323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b3dcd934910c5e5e5176f7412ad96f') in 0.006649 seconds
+  Import took 0.010644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000601 seconds.
+  path: Assets/Sendagaya_Shino.BlendShapes/BlendShape.Neutral.asset
+  artifactKey: Guid(209f1cf0820cba642bf2fb2125660594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.BlendShapes/BlendShape.Neutral.asset using Guid(209f1cf0820cba642bf2fb2125660594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119231ce0e8915a0133d3e15838a80f3') in 0.002247 seconds
+  Import took 0.005181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Sendagaya_Shino.BlendShapes/BlendShape.O.asset
+  artifactKey: Guid(522fb58d12b18f24e9939932fa33b816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.BlendShapes/BlendShape.O.asset using Guid(522fb58d12b18f24e9939932fa33b816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d33439996edb2725f93d19b18e8ca82') in 0.002073 seconds
+  Import took 0.004322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Sendagaya_Shino.BlendShapes/BlendShape.Blink_L.asset
+  artifactKey: Guid(1013f857b0f1d8a43aea2330ed8c7a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.BlendShapes/BlendShape.Blink_L.asset using Guid(1013f857b0f1d8a43aea2330ed8c7a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be4dfb243bba3571ab2d2c26736b52d') in 0.001788 seconds
+  Import took 0.003896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Sendagaya_Shino.BlendShapes/BlendShape.Extra.asset
+  artifactKey: Guid(be1e4130ee619914487eaf312e1143e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.BlendShapes/BlendShape.Extra.asset using Guid(be1e4130ee619914487eaf312e1143e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b9121625030943ba6884f1a7ccefee') in 0.001914 seconds
+  Import took 0.004057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Sendagaya_Shino.BlendShapes/BlendShape.I.asset
+  artifactKey: Guid(af2d37fb3c4bd52458a87640a072cd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.BlendShapes/BlendShape.I.asset using Guid(af2d37fb3c4bd52458a87640a072cd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667ce308ff78edec4b39bfb9d27458cd') in 0.001944 seconds
+  Import took 0.004062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Sendagaya_Shino.BlendShapes/BlendShape.Blink.asset
+  artifactKey: Guid(eb70b1a5fcef8f04b87a371eb199d2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.BlendShapes/BlendShape.Blink.asset using Guid(eb70b1a5fcef8f04b87a371eb199d2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5557785079957c31b6f30b22b1af3a8a') in 0.001927 seconds
+  Import took 0.004189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Sendagaya_Shino.BlendShapes/LookDown.asset
+  artifactKey: Guid(19b765f1b38c7ea439bff7d6713f9f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.BlendShapes/LookDown.asset using Guid(19b765f1b38c7ea439bff7d6713f9f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0de36a941eb2edf1f6b71ba9de140f0') in 0.001911 seconds
+  Import took 0.004161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Sendagaya_Shino.BlendShapes/LookRight.asset
+  artifactKey: Guid(11fc3a3e69dc75243856c2ab04684cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.BlendShapes/LookRight.asset using Guid(11fc3a3e69dc75243856c2ab04684cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691afd2e469afa346a5b1e15859d9e11') in 0.002100 seconds
+  Import took 0.004445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Sendagaya_Shino.BlendShapes/LookUp.asset
+  artifactKey: Guid(e13d9a69ff81d7b44a76005ceced1098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.BlendShapes/LookUp.asset using Guid(e13d9a69ff81d7b44a76005ceced1098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6ef92f35d382e4e77fca2081d29361') in 0.002049 seconds
+  Import took 0.004426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Sendagaya_Shino.BlendShapes/BlendShape.Angry.asset
+  artifactKey: Guid(7166623b68f79754ebad1d8f1d3b3fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.BlendShapes/BlendShape.Angry.asset using Guid(7166623b68f79754ebad1d8f1d3b3fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2234369d37efa080074ba3fc1acd7fa7') in 0.002076 seconds
+  Import took 0.004338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Sendagaya_Shino.BlendShapes/BlendShape.Sorrow.asset
+  artifactKey: Guid(f7d7266cec07eb44fad0ed355d2810e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.BlendShapes/BlendShape.Sorrow.asset using Guid(f7d7266cec07eb44fad0ed355d2810e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a794e339a813d089e8886d998029318') in 0.002121 seconds
+  Import took 0.004455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Sendagaya_Shino.BlendShapes/BlendShape.E.asset
+  artifactKey: Guid(676ed93a66ff31f48ba79d00aa3cb68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.BlendShapes/BlendShape.E.asset using Guid(676ed93a66ff31f48ba79d00aa3cb68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425671bc25cab42df43ba885100ea53c') in 0.001817 seconds
+  Import took 0.003908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Sendagaya_Shino.BlendShapes/LookLeft.asset
+  artifactKey: Guid(026cee287665aba40ad5b3936365ab0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.BlendShapes/LookLeft.asset using Guid(026cee287665aba40ad5b3936365ab0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748313bad420bd8a81ab7aa09be4a164') in 0.001904 seconds
+  Import took 0.004036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Sendagaya_Shino.BlendShapes/BlendShape.Blink_R.asset
+  artifactKey: Guid(0145556d623d50f4a8bf3fc235517012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.BlendShapes/BlendShape.Blink_R.asset using Guid(0145556d623d50f4a8bf3fc235517012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447d1e7a6d12ab17d1a4bab2a0fb4361') in 0.002196 seconds
+  Import took 0.004982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Sendagaya_Shino.BlendShapes/BlendShape.Surprised.asset
+  artifactKey: Guid(8c763948068f81640b2bf905dfe64195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.BlendShapes/BlendShape.Surprised.asset using Guid(8c763948068f81640b2bf905dfe64195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6b79936c6e6d0454fc5770afa7a768') in 0.002200 seconds
+  Import took 0.004910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Sendagaya_Shino.BlendShapes/BlendShape.Joy.asset
+  artifactKey: Guid(d4a2f3dde170c4a40b713a66f570c679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.BlendShapes/BlendShape.Joy.asset using Guid(d4a2f3dde170c4a40b713a66f570c679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2957922baa3b956046917f51445d34c') in 0.001962 seconds
+  Import took 0.004100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Sendagaya_Shino.BlendShapes/BlendShape.U.asset
+  artifactKey: Guid(82385d132653a3244b5000797cb16f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.BlendShapes/BlendShape.U.asset using Guid(82385d132653a3244b5000797cb16f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b02c8cac5e43a167bb5c1a455cc09e8') in 0.001891 seconds
+  Import took 0.004081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Sendagaya_Shino.BlendShapes/BlendShape.Fun.asset
+  artifactKey: Guid(44523953568121b47ae104b2a5629894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.BlendShapes/BlendShape.Fun.asset using Guid(44523953568121b47ae104b2a5629894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ab12cc7222c01e44f9630381bcfc35') in 0.002042 seconds
+  Import took 0.004366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Sendagaya_Shino.BlendShapes/BlendShape.asset
+  artifactKey: Guid(05ec66827d146ff4380cdfc48a911b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.BlendShapes/BlendShape.asset using Guid(05ec66827d146ff4380cdfc48a911b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841d96dc02ac1c62781fea1fc5c12115') in 0.004957 seconds
+  Import took 0.007319 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002739 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.880 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.5 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2571.
+Total: 2.326900 ms (FindLiveObjects: 0.303200 ms CreateObjectMapping: 0.047500 ms MarkObjects: 1.911800 ms  DeleteObjects: 0.063100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 503.866747 seconds.
+  path: Assets/Sendagaya_Shino.BlendShapes/BlendShape.E.asset
+  artifactKey: Guid(676ed93a66ff31f48ba79d00aa3cb68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.BlendShapes/BlendShape.E.asset using Guid(676ed93a66ff31f48ba79d00aa3cb68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f12bb4027cdf39b8aa79c65d98c0ed8d') in 0.011487 seconds
+  Import took 0.014709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Sendagaya_Shino.BlendShapes/BlendShape.A.asset
+  artifactKey: Guid(ab1fbe69020d100409560bf6883cd323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.BlendShapes/BlendShape.A.asset using Guid(ab1fbe69020d100409560bf6883cd323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ae057e13b6b000bea583ee6123aa0b') in 0.001848 seconds
+  Import took 0.004172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.736134 seconds.
+  path: Assets/Sendagaya_Shino.BlendShapes/BlendShape.I.asset
+  artifactKey: Guid(af2d37fb3c4bd52458a87640a072cd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.BlendShapes/BlendShape.I.asset using Guid(af2d37fb3c4bd52458a87640a072cd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a77012d4dc3dc6e351c63908950dbb') in 0.002226 seconds
+  Import took 0.005152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Sendagaya_Shino.BlendShapes/BlendShape.O.asset
+  artifactKey: Guid(522fb58d12b18f24e9939932fa33b816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.BlendShapes/BlendShape.O.asset using Guid(522fb58d12b18f24e9939932fa33b816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3264a44beebb5666e58503d1d43e1633') in 0.001841 seconds
+  Import took 0.004009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.857125 seconds.
+  path: Assets/Sendagaya_Shino.BlendShapes/BlendShape.U.asset
+  artifactKey: Guid(82385d132653a3244b5000797cb16f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.BlendShapes/BlendShape.U.asset using Guid(82385d132653a3244b5000797cb16f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4c66da9b1ed939a49560995839625a') in 0.002159 seconds
+  Import took 0.005054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020924 seconds.
+  path: Assets/Sendagaya_Shino.BlendShapes/BlendShape.U.asset
+  artifactKey: Guid(82385d132653a3244b5000797cb16f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.BlendShapes/BlendShape.U.asset using Guid(82385d132653a3244b5000797cb16f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4c66da9b1ed939a49560995839625a') in 0.002346 seconds
+  Import took 0.005359 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002572 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.863 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.5 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2574.
+Total: 2.029400 ms (FindLiveObjects: 0.215400 ms CreateObjectMapping: 0.049000 ms MarkObjects: 1.708700 ms  DeleteObjects: 0.055400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 693.152019 seconds.
+  path: Assets/Sendagaya_Shino.BlendShapes/BlendShape.A.asset
+  artifactKey: Guid(ab1fbe69020d100409560bf6883cd323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.BlendShapes/BlendShape.A.asset using Guid(ab1fbe69020d100409560bf6883cd323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa051ff4ba5e000c091f98033dbda8e') in 0.118301 seconds
+  Import took 0.123175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.283940 seconds.
+  path: Assets/Sendagaya_Shino.BlendShapes/BlendShape.Neutral.asset
+  artifactKey: Guid(209f1cf0820cba642bf2fb2125660594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.BlendShapes/BlendShape.Neutral.asset using Guid(209f1cf0820cba642bf2fb2125660594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee7cdac3f7155dd29addec60daa8540') in 0.080622 seconds
+  Import took 0.084290 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002646 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.870 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.6 MB.
+System memory in use after: 102.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2577.
+Total: 2.020100 ms (FindLiveObjects: 0.214100 ms CreateObjectMapping: 0.048000 ms MarkObjects: 1.709600 ms  DeleteObjects: 0.047500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003120 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.926 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.6 MB.
+System memory in use after: 102.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2580.
+Total: 2.111100 ms (FindLiveObjects: 0.240700 ms CreateObjectMapping: 0.051700 ms MarkObjects: 1.759700 ms  DeleteObjects: 0.058100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002893 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.896 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.6 MB.
+System memory in use after: 102.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2583.
+Total: 2.089300 ms (FindLiveObjects: 0.206700 ms CreateObjectMapping: 0.048700 ms MarkObjects: 1.778200 ms  DeleteObjects: 0.054800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003298 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.903 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.8 MB.
+System memory in use after: 103.6 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2600.
+Total: 2.188700 ms (FindLiveObjects: 0.181500 ms CreateObjectMapping: 0.049500 ms MarkObjects: 1.793500 ms  DeleteObjects: 0.163100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4774.007364 seconds.
+  path: Assets/UTJ
+  artifactKey: Guid(91f84ba28b0d86542b83cd84db987004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTJ using Guid(91f84ba28b0d86542b83cd84db987004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '182b4ce0098ba4c918d2031945fe8741') in 0.005208 seconds
+  Import took 0.008618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.020903 seconds.
+  path: Assets/VRM/Runtime
+  artifactKey: Guid(fa718af2898e5564aa4fc9c9f7f5a429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRM/Runtime using Guid(fa718af2898e5564aa4fc9c9f7f5a429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f6da54dfc5b7a0c80e49b75b214ab1') in 0.002010 seconds
+  Import took 0.005006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.188664 seconds.
+  path: Assets/VRM/README.md
+  artifactKey: Guid(27376b07a49e57442a9c2d6a2a0805b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRM/README.md using Guid(27376b07a49e57442a9c2d6a2a0805b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330f80255b043d44294900dc0af035c2') in 0.039047 seconds
+  Import took 0.042584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.302226 seconds.
+  path: Assets/Sendagaya_Shino.vrm
+  artifactKey: Guid(579fb68576aef1f499b15834f42f2496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.vrm using Guid(579fb68576aef1f499b15834f42f2496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb2b75fab976b67dfeea91e284b1f4b') in 0.003494 seconds
+  Import took 0.006400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.706564 seconds.
+  path: Assets/Unity_chan_Lipsync.unity
+  artifactKey: Guid(65824794e582eb54dadcf58432d73554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_chan_Lipsync.unity using Guid(65824794e582eb54dadcf58432d73554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1eaada468a7716c86cb01f25c82d38') in 0.002147 seconds
+  Import took 0.005023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.223758 seconds.
+  path: Assets/import_VRM.unity
+  artifactKey: Guid(70370b5472bc5364ba0dc1d9c499429c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/import_VRM.unity using Guid(70370b5472bc5364ba0dc1d9c499429c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c5cc28d133340536ce436f5a077323') in 0.131407 seconds
+  Import took 0.134456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.675408 seconds.
+  path: Assets/UniGLTF
+  artifactKey: Guid(4502ffceb7ee07441a884e5033f953a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF using Guid(4502ffceb7ee07441a884e5033f953a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e7553eada209a63b7ab249d06aae192') in 0.001844 seconds
+  Import took 0.004599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.437976 seconds.
+  path: Assets/Sendagaya_Shino.Textures
+  artifactKey: Guid(2f87308c7d51bc249b4897b6c93e0c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.Textures using Guid(2f87308c7d51bc249b4897b6c93e0c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a44dffed803b62bd0c311313f346f58') in 0.001894 seconds
+  Import took 0.004789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.361268 seconds.
+  path: Assets/Sendagaya_Shino.MetaObject
+  artifactKey: Guid(43768dee78954464aababb1b2b4771e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.MetaObject using Guid(43768dee78954464aababb1b2b4771e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9429b9403d1cdbd0b50438e88701a171') in 0.001901 seconds
+  Import took 0.004910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.408627 seconds.
+  path: Assets/Sendagaya_Shino.Meshes
+  artifactKey: Guid(7dc56d8b56f8afc4f853c6811848e21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.Meshes using Guid(7dc56d8b56f8afc4f853c6811848e21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4731e47313a6f24c0ea9e9c8154598e') in 0.001842 seconds
+  Import took 0.004626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.348612 seconds.
+  path: Assets/Sendagaya_Shino.Materials
+  artifactKey: Guid(6658259cc530b6c4ebd7ffce5763ac1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.Materials using Guid(6658259cc530b6c4ebd7ffce5763ac1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe8a2c5f58e7aa7ffa097b19e18e4f3') in 0.001898 seconds
+  Import took 0.004832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.402987 seconds.
+  path: Assets/Sendagaya_Shino.BlendShapes
+  artifactKey: Guid(076c97817930e194ebab54a944761129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.BlendShapes using Guid(076c97817930e194ebab54a944761129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fce1a22f55a27c7650d427a0e799de') in 0.001822 seconds
+  Import took 0.004593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.408842 seconds.
+  path: Assets/Sendagaya_Shino.AvatarDescription
+  artifactKey: Guid(498e2326a9cf770469b38bfc631fa2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sendagaya_Shino.AvatarDescription using Guid(498e2326a9cf770469b38bfc631fa2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cefc1cdc5d7519b0215548c7a1503f5') in 0.001833 seconds
+  Import took 0.004590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.494886 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(9699965bd6611c34c82ac0348419c0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(9699965bd6611c34c82ac0348419c0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e43fa513d8ae1bb409e495e6639fe5') in 0.579810 seconds
+  Import took 0.583758 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002507 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.875 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.9 MB.
+System memory in use after: 103.6 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2603.
+Total: 2.232000 ms (FindLiveObjects: 0.187500 ms CreateObjectMapping: 0.052300 ms MarkObjects: 1.769100 ms  DeleteObjects: 0.222300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 301.853997 seconds.
+  path: Assets/VRM_Lipsync.unity
+  artifactKey: Guid(70370b5472bc5364ba0dc1d9c499429c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRM_Lipsync.unity using Guid(70370b5472bc5364ba0dc1d9c499429c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968ba94d59d7a5c0e9344fc0adfe6efd') in 0.012939 seconds
+  Import took 0.016218 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.2 MB.
+System memory in use after: 62.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2603.
+Total: 3.779700 ms (FindLiveObjects: 0.402300 ms CreateObjectMapping: 0.065200 ms MarkObjects: 3.121800 ms  DeleteObjects: 0.187500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002455 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.705 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.0 MB.
+System memory in use after: 103.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2606.
+Total: 2.235500 ms (FindLiveObjects: 0.220600 ms CreateObjectMapping: 0.046100 ms MarkObjects: 1.812700 ms  DeleteObjects: 0.155400 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.3 MB.
+System memory in use after: 62.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2606.
+Total: 2.420400 ms (FindLiveObjects: 0.284900 ms CreateObjectMapping: 0.053300 ms MarkObjects: 1.921700 ms  DeleteObjects: 0.159500 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

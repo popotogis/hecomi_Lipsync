@@ -1,0 +1,290 @@
+Library: lib_burst_generated
+--platform=Windows
+--backend=burst-llvm-10
+--target=X64_SSE2
+--dump=Function
+--float-precision=Standard
+--format=Coff
+--compilation-defines=UNITY_2020_3_11
+--compilation-defines=UNITY_2020_3
+--compilation-defines=UNITY_2020
+--compilation-defines=UNITY_5_3_OR_NEWER
+--compilation-defines=UNITY_5_4_OR_NEWER
+--compilation-defines=UNITY_5_5_OR_NEWER
+--compilation-defines=UNITY_5_6_OR_NEWER
+--compilation-defines=UNITY_2017_1_OR_NEWER
+--compilation-defines=UNITY_2017_2_OR_NEWER
+--compilation-defines=UNITY_2017_3_OR_NEWER
+--compilation-defines=UNITY_2017_4_OR_NEWER
+--compilation-defines=UNITY_2018_1_OR_NEWER
+--compilation-defines=UNITY_2018_2_OR_NEWER
+--compilation-defines=UNITY_2018_3_OR_NEWER
+--compilation-defines=UNITY_2018_4_OR_NEWER
+--compilation-defines=UNITY_2019_1_OR_NEWER
+--compilation-defines=UNITY_2019_2_OR_NEWER
+--compilation-defines=UNITY_2019_3_OR_NEWER
+--compilation-defines=UNITY_2019_4_OR_NEWER
+--compilation-defines=UNITY_2020_1_OR_NEWER
+--compilation-defines=UNITY_2020_2_OR_NEWER
+--compilation-defines=UNITY_2020_3_OR_NEWER
+--compilation-defines=PLATFORM_ARCH_64
+--compilation-defines=UNITY_64
+--compilation-defines=USE_SEARCH_ENGINE_API
+--compilation-defines=SCENE_TEMPLATE_MODULE
+--compilation-defines=ENABLE_AR
+--compilation-defines=ENABLE_AUDIO
+--compilation-defines=ENABLE_CACHING
+--compilation-defines=ENABLE_CLOTH
+--compilation-defines=ENABLE_EVENT_QUEUE
+--compilation-defines=ENABLE_MICROPHONE
+--compilation-defines=ENABLE_MULTIPLE_DISPLAYS
+--compilation-defines=ENABLE_PHYSICS
+--compilation-defines=ENABLE_TEXTURE_STREAMING
+--compilation-defines=ENABLE_VIRTUALTEXTURING
+--compilation-defines=ENABLE_UNET
+--compilation-defines=ENABLE_LZMA
+--compilation-defines=ENABLE_UNITYEVENTS
+--compilation-defines=ENABLE_VR
+--compilation-defines=ENABLE_WEBCAM
+--compilation-defines=ENABLE_UNITYWEBREQUEST
+--compilation-defines=ENABLE_WWW
+--compilation-defines=ENABLE_CLOUD_SERVICES
+--compilation-defines=ENABLE_CLOUD_SERVICES_COLLAB
+--compilation-defines=ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+--compilation-defines=ENABLE_CLOUD_SERVICES_ADS
+--compilation-defines=ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+--compilation-defines=ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+--compilation-defines=ENABLE_CLOUD_SERVICES_PURCHASING
+--compilation-defines=ENABLE_CLOUD_SERVICES_ANALYTICS
+--compilation-defines=ENABLE_CLOUD_SERVICES_UNET
+--compilation-defines=ENABLE_CLOUD_SERVICES_BUILD
+--compilation-defines=ENABLE_CLOUD_LICENSE
+--compilation-defines=ENABLE_EDITOR_HUB_LICENSE
+--compilation-defines=ENABLE_WEBSOCKET_CLIENT
+--compilation-defines=ENABLE_DIRECTOR_AUDIO
+--compilation-defines=ENABLE_DIRECTOR_TEXTURE
+--compilation-defines=ENABLE_MANAGED_JOBS
+--compilation-defines=ENABLE_MANAGED_TRANSFORM_JOBS
+--compilation-defines=ENABLE_MANAGED_ANIMATION_JOBS
+--compilation-defines=ENABLE_MANAGED_AUDIO_JOBS
+--compilation-defines=INCLUDE_DYNAMIC_GI
+--compilation-defines=ENABLE_MONO_BDWGC
+--compilation-defines=ENABLE_SCRIPTING_GC_WBARRIERS
+--compilation-defines=PLATFORM_SUPPORTS_MONO
+--compilation-defines=RENDER_SOFTWARE_CURSOR
+--compilation-defines=ENABLE_VIDEO
+--compilation-defines=PLATFORM_STANDALONE
+--compilation-defines=PLATFORM_STANDALONE_WIN
+--compilation-defines=UNITY_STANDALONE_WIN
+--compilation-defines=UNITY_STANDALONE
+--compilation-defines=ENABLE_RUNTIME_GI
+--compilation-defines=ENABLE_MOVIES
+--compilation-defines=ENABLE_NETWORK
+--compilation-defines=ENABLE_CRUNCH_TEXTURE_COMPRESSION
+--compilation-defines=ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+--compilation-defines=ENABLE_CLUSTER_SYNC
+--compilation-defines=ENABLE_CLUSTERINPUT
+--compilation-defines=PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
+--compilation-defines=GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+--compilation-defines=ENABLE_WEBSOCKET_HOST
+--compilation-defines=ENABLE_MONO
+--compilation-defines=NET_STANDARD_2_0
+--compilation-defines=ENABLE_CUSTOM_RENDER_TEXTURE
+--compilation-defines=ENABLE_DIRECTOR
+--compilation-defines=ENABLE_LOCALIZATION
+--compilation-defines=ENABLE_SPRITES
+--compilation-defines=ENABLE_TERRAIN
+--compilation-defines=ENABLE_TILEMAP
+--compilation-defines=ENABLE_TIMELINE
+--compilation-defines=ENABLE_LEGACY_INPUT_MANAGER
+--compilation-defines=CSHARP_7_OR_LATER
+--compilation-defines=CSHARP_7_3_OR_NEWER
+--compilation-defines=PACKAGE_PHYSICS
+--compilation-defines=PACKAGE_PHYSICS2D
+--compilation-defines=PACKAGE_TILEMAP
+--compilation-defines=PACKAGE_ANIMATION
+--linker-options=PdbAltPath="VRM_uLipsync_Data/Plugins/x86_64"
+--output=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\Unity.Mathematics.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\UniGLTF.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\UniHumanoid.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\UnityEngine.UI.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\VRM.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\Unity.TextMeshPro.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\Unity.Burst.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\VRMShaders.GLTF.IO.Runtime.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\VRMShaders.GLTF.UniUnlit.Runtime.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\uLipSync.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\VRMShaders.VRM.IO.Runtime.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\MToon.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\VRMShaders.VRM10.Format.Runtime.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\UTJ.VertexTweaker.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\UTJ.BlendShapeBuilder.dll
+--assembly-folder=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\
+--pdb-search-paths=Temp/ManagedSymbols/
+--method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10
+--method=Unity.Burst.Intrinsics.X86, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::DoSetCSRTrampoline(System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--da352d92cabf024fc9986011d52a4537
+--method=Unity.Burst.Intrinsics.X86, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::DoGetCSRTrampoline()--89425a97f3f500fa810ad03f0c382542
+--method=uLipSync.Algorithm, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::GetMaxValue(Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null)--7eb0047ae14a3dc764d678cbdc92cc34
+--method=uLipSync.Algorithm, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::GetMinValue(Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null)--03f8429ae542a4372ca2a1418f0fc811
+--method=uLipSync.Algorithm, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::GetRMSVolume(Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null)--6e60b9dad985fefe0f6845b80e7f3f43
+--method=uLipSync.Algorithm, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::ToMel(System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--17cb624699b38a0de201e1b877064704
+--method=uLipSync.Algorithm, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::ToHz(System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--e3bef99bc7323224d48b1d4fc6ef698f
+--method=uLipSync.Algorithm, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::DCT(Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null)--e0902c3bd6692a7c9827df32773840a9
+--method=uLipSync.Algorithm, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::CopyRingBuffer(Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--9a2e3c533c41d07a613fc8589f79a0e4
+--method=uLipSync.Algorithm, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Normalize(Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null)--07f06f280c7ef5f5809324a7489305bb
+--method=uLipSync.Algorithm, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::LowPassFilter(Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--68b9de39b36670392c5f2a4a44bdb390
+--method=uLipSync.Algorithm, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::DownSample(Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--ba9cedf8b1c4f684028538539c18b73d
+--method=uLipSync.Algorithm, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::PreEmphasis(Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--b5c3076c174432127ea06e2e0fa28165
+--method=uLipSync.Algorithm, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::HammingWindow(Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null)--d29abda52fabbb5bb57525c239447ca7
+--method=uLipSync.Algorithm, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::FFT(Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null)--885779b653b7e2a82de43d880fd05d27
+--method=uLipSync.Algorithm, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::FFT(Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--2cac07b79e2fae8402d856e4a394de35
+--method=uLipSync.Algorithm, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::MelFilterBank(Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--d4fa2684a72652196e8abf1b699ce2e4
+--method=Unity.Jobs.IJobExtensions+JobStruct`1[[uLipSync.LipSyncJob, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(uLipSync.LipSyncJob&, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--cd4d79a107ed5b51344cc7e2d7457489
+--platform=Windows
+--backend=burst-llvm-10
+--target=AVX2
+--dump=Function
+--float-precision=Standard
+--format=Coff
+--compilation-defines=UNITY_2020_3_11
+--compilation-defines=UNITY_2020_3
+--compilation-defines=UNITY_2020
+--compilation-defines=UNITY_5_3_OR_NEWER
+--compilation-defines=UNITY_5_4_OR_NEWER
+--compilation-defines=UNITY_5_5_OR_NEWER
+--compilation-defines=UNITY_5_6_OR_NEWER
+--compilation-defines=UNITY_2017_1_OR_NEWER
+--compilation-defines=UNITY_2017_2_OR_NEWER
+--compilation-defines=UNITY_2017_3_OR_NEWER
+--compilation-defines=UNITY_2017_4_OR_NEWER
+--compilation-defines=UNITY_2018_1_OR_NEWER
+--compilation-defines=UNITY_2018_2_OR_NEWER
+--compilation-defines=UNITY_2018_3_OR_NEWER
+--compilation-defines=UNITY_2018_4_OR_NEWER
+--compilation-defines=UNITY_2019_1_OR_NEWER
+--compilation-defines=UNITY_2019_2_OR_NEWER
+--compilation-defines=UNITY_2019_3_OR_NEWER
+--compilation-defines=UNITY_2019_4_OR_NEWER
+--compilation-defines=UNITY_2020_1_OR_NEWER
+--compilation-defines=UNITY_2020_2_OR_NEWER
+--compilation-defines=UNITY_2020_3_OR_NEWER
+--compilation-defines=PLATFORM_ARCH_64
+--compilation-defines=UNITY_64
+--compilation-defines=USE_SEARCH_ENGINE_API
+--compilation-defines=SCENE_TEMPLATE_MODULE
+--compilation-defines=ENABLE_AR
+--compilation-defines=ENABLE_AUDIO
+--compilation-defines=ENABLE_CACHING
+--compilation-defines=ENABLE_CLOTH
+--compilation-defines=ENABLE_EVENT_QUEUE
+--compilation-defines=ENABLE_MICROPHONE
+--compilation-defines=ENABLE_MULTIPLE_DISPLAYS
+--compilation-defines=ENABLE_PHYSICS
+--compilation-defines=ENABLE_TEXTURE_STREAMING
+--compilation-defines=ENABLE_VIRTUALTEXTURING
+--compilation-defines=ENABLE_UNET
+--compilation-defines=ENABLE_LZMA
+--compilation-defines=ENABLE_UNITYEVENTS
+--compilation-defines=ENABLE_VR
+--compilation-defines=ENABLE_WEBCAM
+--compilation-defines=ENABLE_UNITYWEBREQUEST
+--compilation-defines=ENABLE_WWW
+--compilation-defines=ENABLE_CLOUD_SERVICES
+--compilation-defines=ENABLE_CLOUD_SERVICES_COLLAB
+--compilation-defines=ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+--compilation-defines=ENABLE_CLOUD_SERVICES_ADS
+--compilation-defines=ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+--compilation-defines=ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+--compilation-defines=ENABLE_CLOUD_SERVICES_PURCHASING
+--compilation-defines=ENABLE_CLOUD_SERVICES_ANALYTICS
+--compilation-defines=ENABLE_CLOUD_SERVICES_UNET
+--compilation-defines=ENABLE_CLOUD_SERVICES_BUILD
+--compilation-defines=ENABLE_CLOUD_LICENSE
+--compilation-defines=ENABLE_EDITOR_HUB_LICENSE
+--compilation-defines=ENABLE_WEBSOCKET_CLIENT
+--compilation-defines=ENABLE_DIRECTOR_AUDIO
+--compilation-defines=ENABLE_DIRECTOR_TEXTURE
+--compilation-defines=ENABLE_MANAGED_JOBS
+--compilation-defines=ENABLE_MANAGED_TRANSFORM_JOBS
+--compilation-defines=ENABLE_MANAGED_ANIMATION_JOBS
+--compilation-defines=ENABLE_MANAGED_AUDIO_JOBS
+--compilation-defines=INCLUDE_DYNAMIC_GI
+--compilation-defines=ENABLE_MONO_BDWGC
+--compilation-defines=ENABLE_SCRIPTING_GC_WBARRIERS
+--compilation-defines=PLATFORM_SUPPORTS_MONO
+--compilation-defines=RENDER_SOFTWARE_CURSOR
+--compilation-defines=ENABLE_VIDEO
+--compilation-defines=PLATFORM_STANDALONE
+--compilation-defines=PLATFORM_STANDALONE_WIN
+--compilation-defines=UNITY_STANDALONE_WIN
+--compilation-defines=UNITY_STANDALONE
+--compilation-defines=ENABLE_RUNTIME_GI
+--compilation-defines=ENABLE_MOVIES
+--compilation-defines=ENABLE_NETWORK
+--compilation-defines=ENABLE_CRUNCH_TEXTURE_COMPRESSION
+--compilation-defines=ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+--compilation-defines=ENABLE_CLUSTER_SYNC
+--compilation-defines=ENABLE_CLUSTERINPUT
+--compilation-defines=PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
+--compilation-defines=GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+--compilation-defines=ENABLE_WEBSOCKET_HOST
+--compilation-defines=ENABLE_MONO
+--compilation-defines=NET_STANDARD_2_0
+--compilation-defines=ENABLE_CUSTOM_RENDER_TEXTURE
+--compilation-defines=ENABLE_DIRECTOR
+--compilation-defines=ENABLE_LOCALIZATION
+--compilation-defines=ENABLE_SPRITES
+--compilation-defines=ENABLE_TERRAIN
+--compilation-defines=ENABLE_TILEMAP
+--compilation-defines=ENABLE_TIMELINE
+--compilation-defines=ENABLE_LEGACY_INPUT_MANAGER
+--compilation-defines=CSHARP_7_OR_LATER
+--compilation-defines=CSHARP_7_3_OR_NEWER
+--compilation-defines=PACKAGE_PHYSICS
+--compilation-defines=PACKAGE_PHYSICS2D
+--compilation-defines=PACKAGE_TILEMAP
+--compilation-defines=PACKAGE_ANIMATION
+--linker-options=PdbAltPath="VRM_uLipsync_Data/Plugins/x86_64"
+--output=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\Unity.Mathematics.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\UniGLTF.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\UniHumanoid.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\UnityEngine.UI.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\VRM.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\Unity.TextMeshPro.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\Unity.Burst.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\VRMShaders.GLTF.IO.Runtime.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\VRMShaders.GLTF.UniUnlit.Runtime.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\uLipSync.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\VRMShaders.VRM.IO.Runtime.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\MToon.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\VRMShaders.VRM10.Format.Runtime.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\UTJ.VertexTweaker.dll
+--root-assembly=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\UTJ.BlendShapeBuilder.dll
+--assembly-folder=D:\ドキュメント\Unity\hekomi_lip-sync\hekomi_lip-sync\Temp\StagingArea\Data\Managed\
+--pdb-search-paths=Temp/ManagedSymbols/
+--method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10
+--method=Unity.Burst.Intrinsics.X86, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::DoSetCSRTrampoline(System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--da352d92cabf024fc9986011d52a4537
+--method=Unity.Burst.Intrinsics.X86, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::DoGetCSRTrampoline()--89425a97f3f500fa810ad03f0c382542
+--method=uLipSync.Algorithm, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::GetMaxValue(Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null)--7eb0047ae14a3dc764d678cbdc92cc34
+--method=uLipSync.Algorithm, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::GetMinValue(Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null)--03f8429ae542a4372ca2a1418f0fc811
+--method=uLipSync.Algorithm, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::GetRMSVolume(Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null)--6e60b9dad985fefe0f6845b80e7f3f43
+--method=uLipSync.Algorithm, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::CopyRingBuffer(Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--9a2e3c533c41d07a613fc8589f79a0e4
+--method=uLipSync.Algorithm, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Normalize(Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null)--07f06f280c7ef5f5809324a7489305bb
+--method=uLipSync.Algorithm, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::LowPassFilter(Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--68b9de39b36670392c5f2a4a44bdb390
+--method=uLipSync.Algorithm, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::DownSample(Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--ba9cedf8b1c4f684028538539c18b73d
+--method=uLipSync.Algorithm, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::PreEmphasis(Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--b5c3076c174432127ea06e2e0fa28165
+--method=uLipSync.Algorithm, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::HammingWindow(Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null)--d29abda52fabbb5bb57525c239447ca7
+--method=uLipSync.Algorithm, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::ToMel(System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--17cb624699b38a0de201e1b877064704
+--method=uLipSync.Algorithm, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::ToHz(System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--e3bef99bc7323224d48b1d4fc6ef698f
+--method=uLipSync.Algorithm, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::DCT(Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null)--e0902c3bd6692a7c9827df32773840a9
+--method=uLipSync.Algorithm, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::FFT(Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null)--885779b653b7e2a82de43d880fd05d27
+--method=uLipSync.Algorithm, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::FFT(Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--2cac07b79e2fae8402d856e4a394de35
+--method=uLipSync.Algorithm, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::MelFilterBank(Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|Unity.Collections.NativeArray`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--d4fa2684a72652196e8abf1b699ce2e4
+--method=Unity.Jobs.IJobExtensions+JobStruct`1[[uLipSync.LipSyncJob, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(uLipSync.LipSyncJob&, uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--cd4d79a107ed5b51344cc7e2d7457489
+

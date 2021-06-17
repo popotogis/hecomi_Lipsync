@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/VRM_Lipsync.unity
+    guid: 70370b5472bc5364ba0dc1d9c499429c
   m_configObjects: {}
