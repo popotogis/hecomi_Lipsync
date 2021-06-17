@@ -9,3 +9,7 @@
 - uLipsync version: 1.01
 - Burst version: 1.4.8
 - Mathematics version: 1.2.1
+
+## VRM_uLipsync.exe
+インポートしたVRMモデルにuLipsyncを適用しリップシンクができる状態にした実行ファイル  
+uLipsyncのMaleプリセットを使用している  
