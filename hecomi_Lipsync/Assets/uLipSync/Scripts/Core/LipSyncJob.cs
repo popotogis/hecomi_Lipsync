@@ -83,7 +83,7 @@ public struct LipSyncJob : IJob
         }
 
         // Result
-        // index, volume, distance(音素, 音量, 
+        // index, volume, distance(音素, 音量, 距離)をresult[0]にして返す
         var res = new Result();
         res.volume = volume;
         GetVowel(ref res.index, ref res.distance);

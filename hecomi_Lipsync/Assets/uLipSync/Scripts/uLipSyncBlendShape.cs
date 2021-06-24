@@ -32,15 +32,16 @@ public class uLipSyncBlendShape : MonoBehaviour
     float volume = 0f;
     bool lipSyncUpdated = false;
 
-    public void OnLipSyncUpdate(LipSyncInfo lipSync)
+    public void OnLipSyncUpdate(LipSyncInfo lipSync) //uLipSync.csで求めた発話中の音素やその音量などのデータを使って口の形をかえる
     {
         phoneme = lipSync.phoneme;
         //Debug.Log(phoneme); //あいうえおのうちどれを発音しているかをAIUEOで表示
 
-        if (lipSync.volume > Mathf.Epsilon)
+        if (lipSync.volume > Mathf.Epsilon) //ギリギリ0でない最小の値 limみたいなイメージ。0じゃダメな理由はなんだろう？
         {
-            var targetVolume = applyVolume ? lipSync.volume : 1f;
-            volume = Mathf.SmoothDamp(volume, targetVolume, ref openVelocity_, openDuration);
+            var targetVolume = applyVolume ? lipSync.volume : 1f; //条件演算子 applyVolumeはデフォルトではfalse
+            volume = Mathf.SmoothDamp(volume, targetVolume, ref openVelocity_, openDuration); //Mathf.Smoothdamp(current,target,currentVelocity,smoothTime)
+                                                                                              //current:現在位置, target:目標地, currentVelocity:現在の速度, smoothTime:targetに到達するまでの時間
         }
         else
         {

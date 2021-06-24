@@ -15,7 +15,7 @@
     },
     {
       "FullName": "uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2021-06-24T07:04:03.1401703Z"
+      "LastWriteTime": "2021-06-24T07:44:00.698433Z"
     },
     {
       "FullName": "UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -70,7 +70,7 @@
     {
       "FullName": "System.Void Unity.Jobs.IJobExtensions/JobStruct`1<uLipSync.LipSyncJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
       "ModuleOptionsHash": 12737112491224502702,
-      "ModuleHash": "6d78788ccda50a986fd18b0709ee2dda",
+      "ModuleHash": "7ccb6e50127104a902ed9eec64759fee",
       "LinkName": "A3D3E56957804328",
       "AssemblyDependencyIndices": [
         4,
