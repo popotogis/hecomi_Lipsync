@@ -1,0 +1,179 @@
+build_platforms:
+  - name: windows
+    type: Unity::VM
+    image: sdet/burst-devimage:stable
+    flavor: b1.large
+  - name: linux
+    image: package-ci/ubuntu:stable
+    type: Unity::VM
+    flavor: b1.large
+  - name: macOS
+    image: burst/burst_mac:stable
+    type: Unity::VM::osx
+    flavor: b1.large
+
+upmci_platforms:
+  - name: windows
+    type: Unity::VM
+    image: package-ci/win10:stable
+    flavor: b1.large
+  - name: linux
+    image: package-ci/ubuntu:stable
+    type: Unity::VM
+    flavor: b1.large
+  - name: macOS
+    image: package-ci/mac:stable
+    type: Unity::VM::osx
+    flavor: b1.large
+
+editor_versions:
+  - version: "2018.4"
+    display_name: "2018.4"
+  - version: "2019.2"
+    display_name: "2019.2"
+  - version: "2019.3"
+    display_name: "2019.3"
+  - version: "2020.2/partner/staging"
+    display_name: "2020.2_partner_staging"
+  - version: "trunk"
+    display_name: "trunk"
+---
+
+{% for platform in build_platforms %}
+{% unless platform.name == "linux" %}
+run_tests_on_mono_{{platform.name}}:
+  name: Tests NUnit on {{platform.name}}
+  agent:
+      type: {{platform.type}}
+      image: {{platform.image}}
+      flavor: {{platform.flavor}}
+  commands:
+  {% if platform.name == "windows" %}
+    - choco install nuget.commandline
+  {% endif %}
+    - nuget restore src
+    - msbuild src/Unity.Mathematics.sln
+    - mono src/packages/NUnit.ConsoleRunner.3.9.0/tools/nunit3-console.exe src/Tests/bin/Debug/Unity.Mathematics.Tests.dll --process=single
+{% endunless %}
+{% endfor %}
+
+validate_package_minimal:
+  name: Validate Package Linux Minimal
+  agent:
+    image: package-ci/ubuntu:stable
+    type: Unity::VM
+    flavor: b1.large
+  commands:
+    - npm install upm-ci-utils@stable --registry https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-npm -g
+    - upm-ci package pack --package-path src/
+    - upm-ci package test --package-path src/ --unity-version 2019.1
+  artifacts:
+    packages:
+      paths:
+        - "upm-ci~/packages/**/*"
+    test_results:
+      paths:
+          - "upm-ci~/**/*"
+  dependencies:
+    {% for platform in build_platforms %}
+    {% unless platform.name == "linux" %}
+    - .yamato/upm-ci.yml#run_tests_on_mono_{{platform.name}}
+    {% endunless %}
+    {% endfor %}
+
+  {% for platform in upmci_platforms %}
+  {% for editor in editor_versions %}
+validate_package_{{platform.name}}_{{editor.display_name}}:
+  name: Validate package {{platform.name}} {{editor.display_name}}
+  agent:
+    image: {{platform.image}}
+    type: {{platform.type}}
+    flavor: {{platform.flavor}}
+  commands:
+    - npm install upm-ci-utils@stable --registry https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-npm -g
+    - upm-ci package pack --package-path src/
+    - upm-ci package test --package-path src/ --unity-version {{ editor.version }}
+  artifacts:
+    packages_{{platform.name}}_{{editor.display_name}}:
+      paths:
+        - "upm-ci~/packages/**/*"
+    results_{{platform.name}}_{{editor.display_name}}:
+        paths:
+            - "upm-ci~/**/*"
+  dependencies:
+    {% for platform in build_platforms %}
+    {% unless platform.name == "linux" %}
+    - .yamato/upm-ci.yml#run_tests_on_mono_{{platform.name}}
+    {% endunless %}
+    {% endfor %}
+  {% endfor %}
+  {% endfor %}
+
+
+publish:
+  name: Publish
+  agent:
+    type: Unity::VM
+    image: package-ci/win10:stable
+    flavor: b1.large
+  commands:
+    - npm install upm-ci-utils@stable --registry https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-npm -g
+    - upm-ci package publish --package-path src/
+  artifacts:
+    packages:
+      paths:
+        - "upm-ci~/packages/**/*"
+  dependencies:
+   - .yamato/upm-ci.yml#validate_package_minimal
+
+
+promote:
+  name: Promote
+  agent:
+    type: Unity::VM
+    image: package-ci/win10:stable
+    flavor: b1.large
+  variables:
+    UPMCI_PROMOTION: 1
+  commands:
+    - npm install upm-ci-utils@stable --registry https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-npm -g
+    - upm-ci package promote --package-path src/
+  artifacts:
+    packages:
+      paths:
+        - "upm-ci~/packages/**/*"
+  dependencies:
+    - .yamato/upm-ci.yml#publish
+
+
+publish_ci:
+  name: all Publish Pipeline
+  triggers:
+    tags:
+      only:
+        - /^\d+\.\d+\.\d+(-preview(\.\d+)?)?$/
+  dependencies:
+    - .yamato/upm-ci.yml#publish
+
+nightly_ci:
+  name: all Nightly Pipeline
+  triggers:
+    recurring:
+      - branch: master
+        frequency: daily
+  dependencies:
+    {% for platform in build_platforms %}
+      {% for editor in editor_versions %}
+      - .yamato/upm-ci.yml#validate_package_{{platform.name}}_{{editor.display_name}}
+      {% endfor %}
+    {% endfor %}
+
+
+commit_ci:
+  name: all CI pipeline
+  triggers:
+    branches:
+      only:
+        - "/.*/"
+  dependencies:
+    - .yamato/upm-ci.yml#validate_package_minimal
