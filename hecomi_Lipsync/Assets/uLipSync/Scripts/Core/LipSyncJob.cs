@@ -5,13 +5,13 @@ using Unity.Burst;
 
 namespace uLipSync
 {
-
-[BurstCompile]
-public struct LipSyncJob : IJob
+    
+[BurstCompile] //コメントアウトするとBurstCompileを無効にできる
+public struct LipSyncJob : IJob　
 {
     public struct Result
     {
-        public int index; //求めたMFCCがどの音素に近かったかを格納する(?)
+        public int index; //求めたMFCCがどの音素に近かったかを格納する
         public float volume;
         public float distance; //
     }
@@ -26,7 +26,8 @@ public struct LipSyncJob : IJob
     public NativeArray<float> phonemes;
     public NativeArray<Result> result;
 
-    public void Execute()
+
+        public void Execute()
     {
         float volume = Algorithm.GetRMSVolume(input);
         if (volume < volumeThresh)

@@ -1,0 +1,8 @@
+# Starting compiling uLipSync.dll
+/Users/z.tomosuke.nakano/2020.3.11f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-f4bea38937cbe41628587abb9b5afd1d
+# Starting compiling uLipSync-Editor.dll
+/Users/z.tomosuke.nakano/2020.3.11f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-cab27c3e2c34d4d179b124da5bdd8d27
+# Starting compiling Assembly-CSharp.dll
+/Users/z.tomosuke.nakano/2020.3.11f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-aa4bab772e14f47359a5df605294d8f0
+# Starting compiling Assembly-CSharp-Editor.dll
+/Users/z.tomosuke.nakano/2020.3.11f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-95a4aaa1931fd45d493faa22f55f2550

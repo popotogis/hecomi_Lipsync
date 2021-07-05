@@ -3,38 +3,38 @@
   "Assemblies": [
     {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2021-06-24T02:34:52.4492707Z"
+      "LastWriteTime": "2021-07-01T01:55:25Z"
     },
     {
       "FullName": "netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
-      "LastWriteTime": "2021-05-25T11:05:50Z"
+      "LastWriteTime": "2021-06-10T01:44:19Z"
     },
     {
       "FullName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-      "LastWriteTime": "2021-05-25T11:05:50Z"
+      "LastWriteTime": "2021-06-10T01:44:19Z"
     },
     {
       "FullName": "uLipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2021-06-24T07:44:00.698433Z"
+      "LastWriteTime": "2021-07-01T07:27:31Z"
     },
     {
       "FullName": "UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2021-05-25T11:11:14Z"
+      "LastWriteTime": "2021-06-10T01:44:17Z"
     },
     {
       "FullName": "mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-      "LastWriteTime": "2021-05-25T11:05:50Z"
+      "LastWriteTime": "2021-06-10T01:44:19Z"
     },
     {
       "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2021-06-24T02:34:53.1633956Z"
+      "LastWriteTime": "2021-07-01T01:55:27Z"
     }
   ],
   "Functions": [
     {
       "FullName": "System.Int32 Unity.Burst.Intrinsics.X86::DoGetCSRTrampoline()",
-      "ModuleOptionsHash": 12737112491224502702,
-      "ModuleHash": "56887eb3c0b4a0d142286e92970c5728",
+      "ModuleOptionsHash": 11834165633931345063,
+      "ModuleHash": "df61a017fb7a7a30386295c1279bbf3c",
       "LinkName": "CDCA4A5193BE5947",
       "AssemblyDependencyIndices": [
         0,
@@ -44,8 +44,8 @@
     },
     {
       "FullName": "System.Void Unity.Burst.Intrinsics.X86::DoSetCSRTrampoline(System.Int32)",
-      "ModuleOptionsHash": 12737112491224502702,
-      "ModuleHash": "ae6558c14b0873c1a61d64ebce2bc3c5",
+      "ModuleOptionsHash": 11834165633931345063,
+      "ModuleHash": "8c5dd0973bc7781346ee8dd53c571da6",
       "LinkName": "801E9A000BB37B05",
       "AssemblyDependencyIndices": [
         0,
@@ -55,8 +55,8 @@
     },
     {
       "FullName": "System.Single uLipSync.Algorithm::GetMaxValue(Unity.Collections.NativeArray`1<System.Single>&)",
-      "ModuleOptionsHash": 12737112491224502702,
-      "ModuleHash": "67f437c1af180f821ab7f240abcf2f0d",
+      "ModuleOptionsHash": 11834165633931345063,
+      "ModuleHash": "6b8ea27d7fe2721ed99d321398015cce",
       "LinkName": "F1BC922430944D7D",
       "AssemblyDependencyIndices": [
         3,
@@ -69,8 +69,8 @@
     },
     {
       "FullName": "System.Void Unity.Jobs.IJobExtensions/JobStruct`1<uLipSync.LipSyncJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
-      "ModuleOptionsHash": 12737112491224502702,
-      "ModuleHash": "7ccb6e50127104a902ed9eec64759fee",
+      "ModuleOptionsHash": 11834165633931345063,
+      "ModuleHash": "e1440b51f2d0705c6c9b4ea29da23a62",
       "LinkName": "A3D3E56957804328",
       "AssemblyDependencyIndices": [
         4,
@@ -83,8 +83,8 @@
     },
     {
       "FullName": "System.Single uLipSync.Algorithm::GetMinValue(Unity.Collections.NativeArray`1<System.Single>&)",
-      "ModuleOptionsHash": 12737112491224502702,
-      "ModuleHash": "e616af5fc7108480172731322274be5d",
+      "ModuleOptionsHash": 11834165633931345063,
+      "ModuleHash": "57d6f760a3f35d0b27b10eb48956e7b1",
       "LinkName": "B073FA42D04B7D08",
       "AssemblyDependencyIndices": [
         3,
@@ -97,8 +97,8 @@
     },
     {
       "FullName": "System.Single uLipSync.Algorithm::GetRMSVolume(Unity.Collections.NativeArray`1<System.Single>&)",
-      "ModuleOptionsHash": 12737112491224502702,
-      "ModuleHash": "69f79c89b087efdc397d8fe7daca82fb",
+      "ModuleOptionsHash": 11834165633931345063,
+      "ModuleHash": "405d2f3db3803c6ae6730796e0238916",
       "LinkName": "58D5F0AA280A2048",
       "AssemblyDependencyIndices": [
         3,
@@ -111,8 +111,8 @@
     },
     {
       "FullName": "System.Void uLipSync.Algorithm::CopyRingBuffer(Unity.Collections.NativeArray`1<System.Single>&,Unity.Collections.NativeArray`1<System.Single>&,System.Int32)",
-      "ModuleOptionsHash": 12737112491224502702,
-      "ModuleHash": "6e4ff00db3b7322dea8197bf632e234b",
+      "ModuleOptionsHash": 11834165633931345063,
+      "ModuleHash": "0ea24679d0851c6811f2bcd3feb7673b",
       "LinkName": "E598AC580EB2E1BD",
       "AssemblyDependencyIndices": [
         3,
@@ -124,8 +124,8 @@
     },
     {
       "FullName": "System.Void uLipSync.Algorithm::Normalize(Unity.Collections.NativeArray`1<System.Single>&)",
-      "ModuleOptionsHash": 12737112491224502702,
-      "ModuleHash": "2c1e9623893d2a3ff44fb44eb38626ce",
+      "ModuleOptionsHash": 11834165633931345063,
+      "ModuleHash": "f284de1533539586fbf057557bdefab2",
       "LinkName": "E478B87FD862F40E",
       "AssemblyDependencyIndices": [
         3,
@@ -138,8 +138,8 @@
     },
     {
       "FullName": "System.Void uLipSync.Algorithm::LowPassFilter(Unity.Collections.NativeArray`1<System.Single>&,System.Single,System.Single,System.Single)",
-      "ModuleOptionsHash": 12737112491224502702,
-      "ModuleHash": "255db4981b23533f31e49177852486b0",
+      "ModuleOptionsHash": 11834165633931345063,
+      "ModuleHash": "7fae507a2c24f7f00648a4562ce1a1c2",
       "LinkName": "5D5177C81B15BAAC",
       "AssemblyDependencyIndices": [
         3,
@@ -152,8 +152,8 @@
     },
     {
       "FullName": "System.Void uLipSync.Algorithm::DownSample(Unity.Collections.NativeArray`1<System.Single>&,Unity.Collections.NativeArray`1<System.Single>&,System.Int32,System.Int32)",
-      "ModuleOptionsHash": 12737112491224502702,
-      "ModuleHash": "2bbf327fef613f0e34ec310c400041a3",
+      "ModuleOptionsHash": 11834165633931345063,
+      "ModuleHash": "824dc7cb65c610ca0e616635372dc381",
       "LinkName": "0DC0AF30750F0ADA",
       "AssemblyDependencyIndices": [
         3,
@@ -166,8 +166,8 @@
     },
     {
       "FullName": "System.Void uLipSync.Algorithm::PreEmphasis(Unity.Collections.NativeArray`1<System.Single>&,System.Single)",
-      "ModuleOptionsHash": 12737112491224502702,
-      "ModuleHash": "92576445b66b706520ba973d423a1b88",
+      "ModuleOptionsHash": 11834165633931345063,
+      "ModuleHash": "4fc8b474fc7a6bd73a37624e7a234254",
       "LinkName": "B108237D898916D1",
       "AssemblyDependencyIndices": [
         3,
@@ -179,8 +179,8 @@
     },
     {
       "FullName": "System.Void uLipSync.Algorithm::HammingWindow(Unity.Collections.NativeArray`1<System.Single>&)",
-      "ModuleOptionsHash": 12737112491224502702,
-      "ModuleHash": "7b0193f279c9602ed8edd129ec6b48cf",
+      "ModuleOptionsHash": 11834165633931345063,
+      "ModuleHash": "ad18e2a7332d9932d7cba20ace68c16a",
       "LinkName": "1BF4C6DCB88FCF2B",
       "AssemblyDependencyIndices": [
         3,
@@ -193,8 +193,8 @@
     },
     {
       "FullName": "System.Void uLipSync.Algorithm::FFT(Unity.Collections.NativeArray`1<System.Single>&,Unity.Collections.NativeArray`1<System.Single>&)",
-      "ModuleOptionsHash": 12737112491224502702,
-      "ModuleHash": "65b39433fefcf4d084f21923aa602e98",
+      "ModuleOptionsHash": 11834165633931345063,
+      "ModuleHash": "9827214b70374666f42ac440b8aed949",
       "LinkName": "8A415CA8A4DF8431",
       "AssemblyDependencyIndices": [
         3,
@@ -207,8 +207,8 @@
     },
     {
       "FullName": "System.Void uLipSync.Algorithm::FFT(Unity.Collections.NativeArray`1<System.Single>&,Unity.Collections.NativeArray`1<System.Single>&,System.Int32)",
-      "ModuleOptionsHash": 12737112491224502702,
-      "ModuleHash": "1c973f75accff5daf4f450eb3a0efc42",
+      "ModuleOptionsHash": 11834165633931345063,
+      "ModuleHash": "8b21b031606057469e69b0ef161e1528",
       "LinkName": "78DE817DE1D8A9AD",
       "AssemblyDependencyIndices": [
         3,
@@ -221,8 +221,8 @@
     },
     {
       "FullName": "System.Void uLipSync.Algorithm::MelFilterBank(Unity.Collections.NativeArray`1<System.Single>&,Unity.Collections.NativeArray`1<System.Single>&,System.Single,System.Int32)",
-      "ModuleOptionsHash": 12737112491224502702,
-      "ModuleHash": "1acee026d576b2053b6e39a39b339f67",
+      "ModuleOptionsHash": 11834165633931345063,
+      "ModuleHash": "bd5f00d8a3e3d0e1e736fb1e43939a81",
       "LinkName": "E4223C7FF6738AA9",
       "AssemblyDependencyIndices": [
         3,
@@ -235,8 +235,8 @@
     },
     {
       "FullName": "System.Single uLipSync.Algorithm::ToMel(System.Single)",
-      "ModuleOptionsHash": 12737112491224502702,
-      "ModuleHash": "9b1af4b6d5a0504d3400cc598522d085",
+      "ModuleOptionsHash": 11834165633931345063,
+      "ModuleHash": "72a72ea22ad968a8c01142b5bea7a54a",
       "LinkName": "613A2E67C9E23F9E",
       "AssemblyDependencyIndices": [
         3,
@@ -247,8 +247,8 @@
     },
     {
       "FullName": "System.Single uLipSync.Algorithm::ToHz(System.Single)",
-      "ModuleOptionsHash": 12737112491224502702,
-      "ModuleHash": "a26f264238daaba7f5b6b214cf6871f9",
+      "ModuleOptionsHash": 11834165633931345063,
+      "ModuleHash": "3b6f12cf9811d14a76f3552ad51598f3",
       "LinkName": "1D6FBA5C9EFD8885",
       "AssemblyDependencyIndices": [
         3,
@@ -259,8 +259,8 @@
     },
     {
       "FullName": "System.Void uLipSync.Algorithm::DCT(Unity.Collections.NativeArray`1<System.Single>&,Unity.Collections.NativeArray`1<System.Single>&)",
-      "ModuleOptionsHash": 12737112491224502702,
-      "ModuleHash": "26219b72f2fb20f0d32e705794bfbbd8",
+      "ModuleOptionsHash": 11834165633931345063,
+      "ModuleHash": "d9fc87f196172654c977328b5399ed09",
       "LinkName": "A95143350B4F908A",
       "AssemblyDependencyIndices": [
         3,
